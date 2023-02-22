@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"; 
 import loadingStatus from "../helpers/loadingStatus";
-import useGetRequest from "./useGetRequests";
+import useGetRequest from "./useGetRequest";
 
 const useHouses = () => {
     const [houses, setHouses] = useState([]); 

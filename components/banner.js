@@ -11,7 +11,6 @@ const subtitleStyle = {
 
 const Banner = ({ children }) => {
     const { navigate } = useContext(navigationContext);
-
     return (
         <header className="row mb-4">
             <div className="col-5">

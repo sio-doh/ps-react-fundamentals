@@ -29,5 +29,7 @@ const useBids = (houseId) => {
         setBids([...bids, bid]);
     };
 
+    return { bids, loadingState, addBid };
+};
 
-}
+export default useBids;
